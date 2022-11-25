@@ -1,0 +1,27 @@
+* {
+margin: 0;
+}
+
+header {
+    padding: 4rem;
+    background-color: antiquewhite;
+
+nav {
+display: flex;
+justify-content: space-between;
+
+}
+}
+ul {
+display: flex;
+list-style: none;
+gap: 8.rem;
+align-items: center;
+}
+
+ul li:last-child{
+    background: black;
+    color: antiquewhite;
+    padding: .8rem;
+
+}
